@@ -2,25 +2,32 @@
  * Metadata describing the module operation
  */
 {
-    //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "bucket",
+            "title":"S3 Bucket"
+        },
+        {
+            "id": "key",
+            "title": "Key"
+        },
+        {
+            "id": "acl",
+            "title": "ACL"
+        },
+        {
+            "id": "data",
+            "title": "Data"
+        },
+        {
+            "id": "content_type",
+            "title": "Content Type"
         }
-        */
     ],
-    //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "etag",
+            "title": "ETag"
         }
-      */
     ],
-    "title": "aws-s3-put" /* Required.A display name for the module */
-}
+    "title": "aws-s3-put"

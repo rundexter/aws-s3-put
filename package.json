@@ -1,12 +1,13 @@
 {
-    "name": "aws-s3-put",
-    "version": "0.0.1",
-    "description": "",
-    "main": "index.js",
-    "author": "Mike Friedman",
-    "license": "ISC",
-    "private": true,
-    "dependencies": {
-        "lodash": "^3.9.3"
-    }
+  "name": "aws-s3-put",
+  "version": "0.0.1",
+  "description": "Store data in an Amazon S3 bucket",
+  "main": "index.js",
+  "author": "Run Dexter, Inc",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "aws-sdk": "^2.3.11",
+    "lodash": "^3.9.3"
+  }
 }
